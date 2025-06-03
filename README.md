@@ -1,23 +1,31 @@
-# 🏦 Análisis de Riesgo Crediticio con Machine Learning
+# Análisis de Riesgo Crediticio
 
-Este repositorio contiene un análisis exploratorio y un modelo predictivo aplicado a un conjunto de datos de riesgo crediticio. El objetivo principal es identificar patrones que ayuden a predecir el incumplimiento de pagos por parte de clientes, utilizando técnicas de Machine Learning en Python.
+Este proyecto tiene como objetivo analizar una base de datos relacionada con solicitudes de crédito para predecir el riesgo asociado a cada cliente.
 
-## 📌 Descripción del Proyecto
+## 📌 Objetivo
+Identificar patrones en los datos que permitan predecir si un cliente representa un riesgo bajo o alto, utilizando técnicas de limpieza de datos, visualización y modelos supervisados de machine learning.
 
-Se desarrolla una solución completa que abarca:
-
-- Limpieza de datos
+## 🛠 Herramientas Utilizadas
+- Python (pandas, matplotlib, seaborn, scikit-learn)
+- Jupyter Notebook
 - Análisis exploratorio (EDA)
-- Ingeniería de características
-- Selección y entrenamiento de modelos supervisados
-- Evaluación del desempeño del modelo
+- Modelos de clasificación: Árboles de decisión, Random Forest
 
-## 📊 Tecnologías Utilizadas
+## 📁 Estructura
+- data/: Contiene la base de datos original.
+- notebooks/: Incluye el desarrollo del análisis paso a paso.
+- models/: Scripts y resultados del modelado predictivo.
 
-- Python 3.x  
-- Jupyter Notebook  
-- Pandas, NumPy  
-- Seaborn, Matplotlib  
-- Scikit-learn  
+## 🚀 Cómo usar
+1. Clona el repositorio.
+2. Abre el notebook principal con Jupyter.
+3. Ejecuta las celdas en orden. Se recomienda tener instaladas las librerías con pip install -r requirements.txt.
 
+## 🧠 ¿Qué aprendí?
+- Procesamiento y limpieza de datos reales.
+- Técnicas de clasificación para riesgo crediticio.
+- Importancia de la visualización en la interpretación de datos.
+- Cómo aplicar y evaluar modelos de machine learning básicos.
 
+## 📈 Resultados
+Los modelos predictivos lograron clasificar correctamente una parte significativa de los clientes con alto riesgo, lo cual podría ayudar a una entidad financiera a evitar pérdidas por préstamos no recuperables.
